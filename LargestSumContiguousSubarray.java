@@ -1,6 +1,5 @@
 /**
- * Largest Sum of Contiguous Subarray
- * 
+ * Largest Sum of Contiguous Subarray Problem
  * @author deenliu
  * 
  *         Given a sequence of n real numbers A(1) ... A(n), determine a
