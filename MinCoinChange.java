@@ -27,13 +27,17 @@ public class MinCoinChange {
 		}
 
 		coin = count[target];
+		for (int i = 0; i < target + 1; i ++) {
+			System.out.printf("%d ",count[i]);
+		}
+		System.out.println();
 		System.out.printf("For $%d, need %d coin(s).\n", target, coin);
 		return coin;
 	}
 
 	public static void testMinCoinChange() {
 		int[] coins = { 1, 5, 10, 20 };
-		int target = 217;
+		int target = 17;
 		minCoinChange(coins, target);
 	}
 }
